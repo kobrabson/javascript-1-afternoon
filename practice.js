@@ -103,6 +103,8 @@ function nameCheck(name) {
   return "What is up Steven?"}
   else if(name === "Bryan"){
     return "Hey Bryan!"}
+  //  else (name === "Joe"){
+  //     return 'cool name, Joe'}
   }
 ///////SOMETHING WRIED HAPPENING////
 
@@ -133,6 +135,17 @@ let mathSum = add(3,4)
 // Otherwise, you should return the string 'you need to evaluate your favorite color choice'
 
 // Code here
+function faveColorFinder(color) {
+  if(color === "red"){
+    return 'red is a great color'}
+    else if (color === 'green') { 
+      return 'green is a solid favorite color'  
+    }
+    // else (color === 'Black') {
+    //   return 'so trendy'
+    // }
+    ///else seems to be where I'm going wrong///
+}
 
 //////////////////PROBLEM 13////////////////////
 
