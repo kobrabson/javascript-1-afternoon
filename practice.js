@@ -43,7 +43,7 @@ let devMountainGoal = null
 function greeting(name){
   return "Hello, " + name
 }
-greeting(Kody)
+
 //////////////////PROBLEM 7////////////////////
 
 //Write a function expression called newGreeting.
@@ -51,13 +51,18 @@ greeting(Kody)
 
 //Code Here
 
+let newGreeting = function(name) {
+  return `Hello, ${name}`
+}
+
+
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
-var groceries = ["apples", "milk", "eggs", "bread"];
+let groceries = [ 'apples', 'milk', 'eggs', 'bread' ] ;
 
 
 //////////////////PROBLEM 9////////////////////
@@ -81,7 +86,7 @@ let dog = {
 
 //Code Here
 
-dog.name = devMountainClassPet
+devMountainClassPet = dog.name
 
 //////////////////PROBLEM 10////////////////////
 
@@ -94,12 +99,12 @@ dog.name = devMountainClassPet
 
 // Code here
 function nameCheck(name) {
-  if (name === "Steven") {
-    
+  if(name === "Steven"){
+  return "What is up Steven?"}
+  else if(name === "Bryan"){
+    return "Hey Bryan!"}
   }
-  return "What is up Steven"
-}
-nameCheck(Steven)
+///////SOMETHING WRIED HAPPENING////
 
 //////////////////PROBLEM 11////////////////////
 
